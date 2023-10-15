@@ -1,0 +1,3 @@
+[submodule "dev_blog/themes/binario"]
+	path = dev_blog/themes/binario
+	url = https://github.com/vimux/binario
