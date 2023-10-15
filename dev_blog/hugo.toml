@@ -1,0 +1,11 @@
+baseURL = 'https://rosebaud.github.io/'
+languageCode = 'en-us'
+title = 'Proving Ground'
+theme = "binario"
+
+[Author] # Used in authorbox
+  name = "Rosebaud"
+  bio = "TODO"
+
+[Params]
+  customCSS = ["css/custom.css"]
