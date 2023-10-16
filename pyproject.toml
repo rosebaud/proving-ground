@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "proving-ground"
+version = "0.1.0"
+description = "Backend for The Proving Ground game concept for QGCon 2023"
+authors = ["Rose Finch <3978339+BeauvoirR@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
