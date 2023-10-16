@@ -1,0 +1,9 @@
+[submodule "proving_blog/themes/ananke"]
+	path = proving_blog/themes/ananke
+	url = https://github.com/budparr/gohugo-theme-ananke.git
+[submodule "proving_blog/themes/terminal"]
+	path = proving_blog/themes/terminal
+	url = https://github.com/panr/hugo-theme-terminal.git
+[submodule "proving_blog/themes/binario"]
+	path = proving_blog/themes/binario
+	url = https://github.com/vimux/binario

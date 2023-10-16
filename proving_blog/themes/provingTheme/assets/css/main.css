@@ -1,0 +1,36 @@
+
+
+body {
+  margin: 40px;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) repeat(3, 0.75fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 80vh;
+  }
+  
+.highlight {
+  grid-area: 1 / 1 / 4 / 4;
+  border: 2px dashed salmon;
+  margin: 12px;
+  /* padding: 6px; */
+}
+.status {
+  grid-area: 4 / 1 / 7 / 4;
+  border: 2px dashed salmon;
+  margin: 12px;
+}
+.posts {
+  grid-area: 1 / 4 / 7 / 7; 
+
+}
+
+.card {
+  border: 2px solid wheat;
+  margin: 12px;
+  padding: 6px;
+}

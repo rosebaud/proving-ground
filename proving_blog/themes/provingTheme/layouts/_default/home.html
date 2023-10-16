@@ -1,0 +1,18 @@
+{{ define "main" }}
+  <div class="parent">
+    <div class="highlight">
+      {{ partial "highlight.html" . }}
+    </div>
+    <div class="status">
+      {{ partial "status.html" . }}
+    </div>
+    <div class="posts">
+      <!-- {{ .Content }} -->
+      {{ range (where .Pages "Section" "posts") }}
+        {{ range .Pages }}
+          {{ partial "card.html" . }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </div> 
+{{ end }}

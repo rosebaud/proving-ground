@@ -1,0 +1,4 @@
+baseURL = 'https://rosebaud.github.io'
+languageCode = 'en-us'
+title = 'The Proving Ground'
+theme = 'provingTheme'
